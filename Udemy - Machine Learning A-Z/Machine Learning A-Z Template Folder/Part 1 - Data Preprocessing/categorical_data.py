@@ -24,5 +24,7 @@ X[:, 0] = labelencoder_X.fit_transform(X[:, 0])
 onehotencoder = OneHotEncoder(categorical_features = [0])
 X = onehotencoder.fit_transform(X).toarray()
 # Encoding the Dependent Variable
+# Since it is depedent, Machine learning will know there is no order, so no need
+# to use onehotencoder
 labelencoder_y = LabelEncoder()
 y = labelencoder_y.fit_transform(y)
