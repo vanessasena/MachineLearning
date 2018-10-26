@@ -3,7 +3,7 @@
 ML is the future.
 Tones of data is being produced.
 
-![ML is the future](https://github.com/vanessasena/MachineLearning/images/MLisfuture.png "ML is the future")
+![ML is the future](https://github.com/vanessasena/MachineLearning/raw/master/images/MLisfuture.png "ML is the future")
 
 ##### Basic models of machine learning
 * Regression - anything to predict a real value
@@ -15,6 +15,21 @@ Tones of data is being produced.
 * Categorical data
 * Dummy encoding
 
+### Part 2 Regression
+
+* Regression models (both linear and non-linear) are used for predicting a real value, like salary for example. If your independent variable is time, then you are forecasting future values, otherwise your model is predicting present but unknown values. Regression technique vary from Linear Regression to SVR and Random Forests Regression.
+
+#### Simple Linear Regression
+
+<img src="https://latex.codecogs.com/gif.latex?y&space;=&space;b_{0}&space;&plus;&space;b_{1}*&space;x_{1}" title="y = b_{0} + b_{1}* x_{1}" />
+
+* <img src="https://latex.codecogs.com/gif.latex?y" title="y" /> = Dependent variable (DV)
+* <img src="https://latex.codecogs.com/gif.latex?x" title="x" /> = Independent variable (IV). In Simple Linear regression there is only one IV.
+* <img src="https://latex.codecogs.com/gif.latex?b_{1}" title="b_{1}" /> = Coefficient
+* <img src="https://latex.codecogs.com/gif.latex?b_{0}" title="b_{0}" /> = Constant. The point where the line crosses the vertical axis.
+
+
+---
 ##### Movies
 * iRobot
 * Ex Machina
