@@ -28,6 +28,10 @@ Tones of data is being produced.
 * <img src="https://latex.codecogs.com/gif.latex?b_{1}" title="b_{1}" /> = Coefficient
 * <img src="https://latex.codecogs.com/gif.latex?b_{0}" title="b_{0}" /> = Constant. The point where the line crosses the vertical axis.
 
+*Ordinary Least Squares*
+![Ordinary Least Squares](https://github.com/vanessasena/MachineLearning/raw/master/images/OrdinaryLeastSquares.png "Ordinary Least Squares")
+
+
 
 ---
 ##### Movies
