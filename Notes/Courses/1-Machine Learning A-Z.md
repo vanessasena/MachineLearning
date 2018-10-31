@@ -28,10 +28,25 @@ Tones of data is being produced.
 * <img src="https://latex.codecogs.com/gif.latex?b_{1}" title="b_{1}" /> = Coefficient
 * <img src="https://latex.codecogs.com/gif.latex?b_{0}" title="b_{0}" /> = Constant. The point where the line crosses the vertical axis.
 
-*Ordinary Least Squares*
+**Ordinary Least Squares**
 ![Ordinary Least Squares](https://github.com/vanessasena/MachineLearning/raw/master/images/OrdinaryLeastSquares.png "Ordinary Least Squares")
 
+#### Multiple Linear Regression
 
+<img src="https://latex.codecogs.com/gif.latex?y&space;=&space;b_{0}&space;&plus;&space;b_{1}*&space;x_{1}&plus;&space;b_{2}*&space;x_{2}&plus;...&plus;&space;b_{n}*&space;x_{n}" title="y = b_{0} + b_{1}* x_{1}" />
+
+**Assumptions of a linear regression**
+* Linearity - the regression model is linear in parameters
+* Homoscedasticity -  if all random variables in the sequence or vector have the same finite variance. This is also known as homogeneity of variance. 
+* Multivariate normality
+* Independence of errors
+* Lack of multicollinearity
+
+**Categorical Variables**
+* In linear regression, create a dummy variable for each categorical variable
+* You should always omit one dummy variable
+
+[Building a model - Step by step](https://github.com/vanessasena/MachineLearning/raw/master/Udemy%20-%20Machine%20Learning%20A-Z/Machine%20Learning%20A-Z%20Template%20Folder/Part%202%20-%20Regression/Section%205%20-%20Multiple%20Linear%20Regression/Step-by-step-Blueprints-For-Building-Models.pdf)
 
 ---
 ##### Movies
