@@ -46,7 +46,7 @@ Tones of data is being produced.
 * In linear regression, create a dummy variable for each categorical variable
 * You should always omit one dummy variable
 
-[Building a model - Step by step](https://github.com/vanessasena/MachineLearning/raw/master/Udemy%20-%20Machine%20Learning%20A-Z/Machine%20Learning%20A-Z%20Template%20Folder/Part%202%20-%20Regression/Section%205%20-%20Multiple%20Linear%20Regression/Step-by-step-Blueprints-For-Building-Models.pdf)
+[Building a model - Step by step](https://github.com/vanessasena/MachineLearning/blob/master/Udemy%20-%20Machine%20Learning%20A-Z/Machine%20Learning%20A-Z%20Template%20Folder/Part%202%20-%20Regression/Section%205%20-%20Multiple%20Linear%20Regression/Step-by-step-Blueprints-For-Building-Models.pdf)
 
 ---
 ##### Movies
