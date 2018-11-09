@@ -48,6 +48,27 @@ Tones of data is being produced.
 
 [Building a model - Step by step](https://github.com/vanessasena/MachineLearning/blob/master/Udemy%20-%20Machine%20Learning%20A-Z/Machine%20Learning%20A-Z%20Template%20Folder/Part%202%20-%20Regression/Section%205%20-%20Multiple%20Linear%20Regression/Step-by-step-Blueprints-For-Building-Models.pdf)
 
+**Backward Elimination with p-values**
+
+```py
+import statsmodels.formula.api as sm
+def backwardElimination(x, sl):
+    numVars = len(x[0])
+    for i in range(0, numVars):
+        regressor_OLS = sm.OLS(y, x).fit()
+        maxVar = max(regressor_OLS.pvalues).astype(float)
+        if maxVar > sl:
+            for j in range(0, numVars - i):
+                if (regressor_OLS.pvalues[j].astype(float) == maxVar):
+                    x = np.delete(x, j, 1)
+    regressor_OLS.summary()
+    return x
+ 
+SL = 0.05
+X_opt = X[:, [0, 1, 2, 3, 4, 5]]
+X_Modeled = backwardElimination(X_opt, SL)
+```
+
 ---
 ##### Movies
 * iRobot
