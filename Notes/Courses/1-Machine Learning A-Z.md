@@ -69,6 +69,11 @@ X_opt = X[:, [0, 1, 2, 3, 4, 5]]
 X_Modeled = backwardElimination(X_opt, SL)
 ```
 
+#### Polynomial Regression
+
+![Polynomial Regression](https://github.com/vanessasena/MachineLearning/raw/master/images/PolynomialRegressionGraph.png "Polynomial Regression")
+
+
 ---
 ##### Movies
 * iRobot
